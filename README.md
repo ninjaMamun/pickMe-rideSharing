@@ -9,7 +9,8 @@
 > 1. Powered by React
 > 2. sign in/sign up with : email, google, facebook
 > 3. Private routing using react router
-> 4. Free forever , Give a star if you like it !
+> 4. Responsive
+> 5. Free forever , Give a star if you like it !
 
 ## Live Site Link: 
 
