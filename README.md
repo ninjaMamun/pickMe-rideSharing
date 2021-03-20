@@ -12,6 +12,9 @@
 > 4. Responsive
 > 5. Free forever , Give a star if you like it !
 
+## Up Coming Feature
+> 1. Beautiful ParticleJS Background
+
 ## Live Site Link: 
 
 > https://pick-me-b1533.web.app/
