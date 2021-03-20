@@ -1,0 +1,13 @@
+.card{
+    
+    width: 90%;
+    padding: 2rem;
+    overflow: hidden;
+    border-radius: 15px;
+    background: #97d996;
+    box-shadow:  20px 20px 60px #80b880,
+             -20px -20px 60px #aefaad;
+}
+.card img{
+    width: 100%;
+}

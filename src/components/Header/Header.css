@@ -1,0 +1,22 @@
+.header-style{
+    background-color:#FFFBF0 ;
+}
+.nav-a{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navimg{
+    width: 291.11px;
+    height: 60px;
+
+}
+.btn-toogle{
+    border-radius: 15px;
+    background: #97d996;
+    box-shadow:  20px 20px 60px #80b880,
+             -20px -20px 60px #aefaad;
+    display:       inline-block;
+    text-align:    center;
+}

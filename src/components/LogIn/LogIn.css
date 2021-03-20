@@ -1,0 +1,62 @@
+
+.login-form {
+    margin: 50px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #97d996;
+    box-shadow:  20px 20px 60px #80b880,
+             -20px -20px 60px #aefaad;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.login-form .hint-text {
+    color: #777;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.form-control, .btn {
+    border-radius: 2px;
+}
+
+.login-btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+.or-seperator {
+    margin: 20px 0 10px;
+    text-align: center;
+    border-top: 1px solid #28a745;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: #97d996;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}
+.social-btn .btn {
+    margin: 10px 0;
+    font-size: 15px;
+    text-align: left; 
+    line-height: 24px;       
+}
+.social-btn .btn i {
+    float: left;
+    margin: 4px 15px  0 5px;
+    min-width: 15px;
+}
+.input-group-addon .fa{
+    font-size: 18px;
+}
+.btn-toogle{
+    border-radius: 8px;
+    background: #97d996;
+    box-shadow:  20px 20px 60px #80b880,
+             -20px -20px 60px #aefaad;
+    display:       inline-block;
+    text-align:    center;
+}

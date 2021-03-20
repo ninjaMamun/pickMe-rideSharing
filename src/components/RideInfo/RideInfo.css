@@ -1,0 +1,25 @@
+.vehicle-image{
+    width: 50px;
+    height: 50px;
+}
+.vehicle-div{
+    border-radius: 15px;
+    background: #97d996;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    box-shadow:  20px 20px 60px #80b880,
+             -20px -20px 60px #aefaad;
+    
+    
+}
+.vehicle-div p{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.people-image{
+    height: 30%;
+}
