@@ -19,7 +19,7 @@ const Home = () => {
         <div>
             
             <div className="container">
-            <h1 className="text-center mt-5">Please Select Your Ride</h1>
+            <h1 className="text-center mt-5 headline">Please Select Your Ride</h1>
                 <div className="row d-flex align-items-center justify-content-center mt-5">
                     {
                         rides.map(ride => <Ride key={ride.rideId} ride={ride}></Ride>)

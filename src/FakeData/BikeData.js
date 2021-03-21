@@ -5,7 +5,7 @@ var bikes = [
         "imageUrl": "https://i.ibb.co/p0p8XZ3/motor-sports.png",
         "Cost": 67,
         "peopleIcon": "https://i.ibb.co/YdgXPYs/peopleicon.png",
-        "person": 2
+        "person": 1
     },
     {
         "id": 2,

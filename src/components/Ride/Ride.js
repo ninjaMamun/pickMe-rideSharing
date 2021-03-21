@@ -6,7 +6,7 @@ const Ride = ({ ride }) => {
     return (
 
         <div className="col-sm-12 col-md-5 col-lg-3 d-flex align-items-center justify-content-center">
-            <Link  to={`/destination/${ride.rideTitle}`}>
+            <Link  to={`/destination/${ride.rideTitle}` } style={{ color: 'inherit', textDecoration: 'inherit'}}>
 
                 <div className="card  m-2">
                     <img src={ride.imgUrl} className="card-img-top" alt="..." />

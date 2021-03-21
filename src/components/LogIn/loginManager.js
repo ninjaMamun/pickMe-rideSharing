@@ -121,3 +121,18 @@ const updateUserName = name => {
       console.log(error);
     });
   }
+
+
+  export const handleSignOut = () => {
+    return firebase.auth().signOut().then((res) => {
+        const signOutuser = {
+            isSignedIn: false,
+            name: '',
+            email: '',
+            photo: ''
+        }
+        return signOutuser;
+    }).catch((error) => {
+        // An error happened.
+    });
+}

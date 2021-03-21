@@ -8,8 +8,8 @@
     
 }
 .navimg{
-    width: 291.11px;
-    height: 60px;
+    width: 200px;
+    height: 65px;
 
 }
 .btn-toogle{
@@ -19,4 +19,7 @@
              -20px -20px 60px #aefaad;
     display:       inline-block;
     text-align:    center;
+}
+.mouse{
+    cursor: pointer;
 }

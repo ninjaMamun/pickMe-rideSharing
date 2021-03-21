@@ -31,9 +31,9 @@ const SearchForm = (props) => {
                 searchClicked ?
                 <div>
                     <div className="location-name">
-                        <p><span className="from-to-text">From:</span> {pickLocation}</p>
-                        <p><span className="from-to-text">To:</span> {dropLocation} </p>
-                        <p>Date- {dateTime.replace("T", `, Time- `)} </p>
+                        <p className="from-to-text"><span className="fw-bold">From: </span>{pickLocation}</p>
+                        <p className="from-to-text"><span className="fw-bold">To: </span> {dropLocation} </p>
+                        <p className="from-to-text">Date- {dateTime.replace("T", `, Time- `)} </p>
                     </div>
                     {
                         rides.map(ride => <RideInfo key={ride.rideId} ride={ride}></RideInfo>)
@@ -54,7 +54,7 @@ const SearchForm = (props) => {
                             <input onBlur={handleBlur} type="datetime-local" class="form-control" id="date-time" placeholder="Enter location" required />
                         </div>
                         <div className="form-group mt-3">
-                            <button  type="submit" className="form-control btn btn-danger" >Search</button>
+                            <button  type="submit" className="form-control btn btn-success" >Search</button>
                         </div>
                 </form>
 

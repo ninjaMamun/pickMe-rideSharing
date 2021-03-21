@@ -5,6 +5,7 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { userContext } from '../../App';
 import './Header.css';
 import logo from '../../../src/images/pickme.png';
+import { handleSignOut } from '../LogIn/loginManager';
 
 
 const Header = () => {
@@ -12,6 +13,13 @@ const Header = () => {
     let email = loggedInUser.email;
     if (email) {
         var name = email.substring(0, email.lastIndexOf("@"));
+    }
+
+    const signOut = () => {
+        handleSignOut()
+        .then(res => {
+            setLoggedInUser(res);
+        })
     }
 
 
@@ -35,6 +43,9 @@ const Header = () => {
                             <Link className="nav-link nav-a" >Contact</Link>
                             {
                                 (loggedInUser.displayName) ? <p className="nav-link nav-a" >{loggedInUser.displayName}</p> : (email) ? <p className="nav-link nav-a" >{name}</p> :  <Link to="/login"><button className="btn-toogle">Log In</button></Link>
+                            }
+                            {
+                                (loggedInUser.displayName || email) && <p onClick={signOut} className="nav-link nav-a mouse">Log Out</p>
                             }
                             
                             
