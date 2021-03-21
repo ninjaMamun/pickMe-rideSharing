@@ -56,7 +56,7 @@ const LogIn = () => {
         }
     }
 
-    // Password CHeck && Validation 
+    // Password Check && Validation 
     const checkPassword = (e) => {
         const confPass = e.target.value;
         setConfirmPassword(confPass);
@@ -79,7 +79,7 @@ const LogIn = () => {
 
 
     const handleSubmit = (e) => {
-        console.log(user);
+        
         //sign up
         if (newUser && user.email && user.password) {
             createUserWithEmailAndPassword(user.name, user.email, user.password)

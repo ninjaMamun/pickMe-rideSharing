@@ -42,7 +42,7 @@ const Header = () => {
                             <Link className="nav-link nav-a" >Blog</Link>
                             <Link className="nav-link nav-a" >Contact</Link>
                             {
-                                (loggedInUser.displayName) ? <p className="nav-link nav-a" >{loggedInUser.displayName}</p> : (email) ? <p className="nav-link nav-a" >{name}</p> :  <Link to="/login"><button className="btn-toogle">Log In</button></Link>
+                                (loggedInUser.displayName) ? <p className="nav-link nav-a" >{loggedInUser.displayName}</p> : (email) ? <p className="nav-link nav-a" >{name}</p> :  <Link to="/login"><p className="nav-link nav-a mouse">Log In</p></Link>
                             }
                             {
                                 (loggedInUser.displayName || email) && <p onClick={signOut} className="nav-link nav-a mouse">Log Out</p>
